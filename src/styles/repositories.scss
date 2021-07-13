@@ -1,0 +1,36 @@
+section.repository-list{
+
+    margin: 2.5rem; 
+    
+    h1{
+        margin-bottom: 1rem;
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    li{
+        & + li {
+            margin-top: 20px;
+            /* o seletor esta pegando as 
+            li que antes dela tem oputras li 
+            para aplica a margin-top
+            */
+        }
+
+        p {
+            font-size: .875rem;
+            color: #444;
+            margin-top: 0.5rem; ;
+        }
+
+        a{
+            display: inline-block;
+            margin-top: 16px;
+            text-decoration: none;
+            color: rgba(155, 41, 98, 0.467);
+        }
+    }
+
+}
